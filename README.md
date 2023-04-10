@@ -27,4 +27,4 @@ $ python ./src/train.py
 ```
 
 ## Statements
-This open demo implementation is used for academic research only.
+It is an open demo implementation of our principled algorithms used for academic research only (for non-commercial purposes).
