@@ -6,16 +6,21 @@ Upload the dataset for your own task here. The format of the dataset should be o
         + type: dict
         + format: {entityid: one-hot encoding baseinfo list}
 + Part 2:
-    + key:"kg"
+    + key:"entityid2lbs_info"
     + value:
         + type: dict
-        + format: {head entityId: [(tail entityId, relationId),...]}
+        + format: {entityid: lbs info}
 + Part 3:
+    + key:"dkg"
+    + value:
+        + type: dict
+        + format: {'time_interval': {head entityId: [(tail entityId, relationId),...]},...}
++ Part 4:
     + key:"entityid2type"
     + value:
         + type: dict
-        + format: {entityId: "B"/"C", etc.}
-+ Part 4:
+        + format: {entityId: "B"/"C"/"I","P", etc.}
++ Part 5:
     + key: "sample_dict"
     + value:
         + type: dict
