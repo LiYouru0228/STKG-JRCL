@@ -1,7 +1,8 @@
 # Learning Joint Relational Co-evolution in Spatial-Temporal Knowledge Graph for SMEs Supply Chain Prediction
 
 ## Overview
-This repository is the implementation of the paper entitled as Learning Joint Relational Co-evolution in Spatial-Temporal Knowledge Graph for SMEs Supply Chain Prediction.
+This repository is the implementation of the paper entitled as Learning Joint Relational Co-evolution in Spatial-Temporal Knowledge Graph for SMEs Supply Chain Prediction. ([KDD'23](https://dl.acm.org/doi/abs/10.1145/3580305.3599855))
+> Youru Li, Zhenfeng Zhu, Xiaobo Guo, Linxun Chen, Zhouyin Wang, Yinmeng Wang, Bing Han, Yao Zhao: Learning Joint Relational Co-evolution in Spatial-Temporal Knowledge Graph for SMEs Supply Chain Prediction. KDD 2023: 4426-4436.
 
 ![](https://github.com/LiYouru0228/STKG-JRCL/blob/main/framework.png?raw=true)
 
@@ -24,6 +25,33 @@ $ python ./src/load_data.py
 Then, you can start to train the model and evaluate the performance by run:
 ```
 $ python ./src/train.py
+```
+
+## Citation 
+If you want to use our codes in your research, please cite:
+```
+@inproceedings{DBLP:conf/kdd/LiZGCWWH023,
+  author       = {Youru Li and
+                  Zhenfeng Zhu and
+                  Xiaobo Guo and
+                  Linxun Chen and
+                  Zhouyin Wang and
+                  Yinmeng Wang and
+                  Bing Han and
+                  Yao Zhao},
+  title        = {Learning Joint Relational Co-evolution in Spatial-Temporal Knowledge
+                  Graph for SMEs Supply Chain Prediction},
+  booktitle    = {Proceedings of the 29th {ACM} {SIGKDD} Conference on Knowledge Discovery
+                  and Data Mining, {KDD} 2023},
+  pages        = {4426--4436},
+  publisher    = {{ACM}},
+  year         = {2023},
+  url          = {https://doi.org/10.1145/3580305.3599855},
+  doi          = {10.1145/3580305.3599855},
+  timestamp    = {Fri, 18 Aug 2023 08:45:04 +0200},
+  biburl       = {https://dblp.org/rec/conf/kdd/LiZGCWWH023.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 ```
 
 ## Statements
